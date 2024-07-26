@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Solutions | Services</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .header {
+            background-image: url("header.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh; 
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .header p {
+            font-size: 1.25rem;
+        }
+        .service-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .service-card img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .contact-form {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .sidebar {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+        }
+        footer a {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Tech Solutions</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <header class="header">
+        <div>
+            <h1>Welcome to Tech Solutions</h1>
+            <p>Innovating Your Future with Cutting-Edge Technology</p>
+        </div>
+    </header>
+
+    
+    <section id="services" class="container mt-5">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row">
+            
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="11.jpg" alt="Service 1">
+                    <h4>Service 1</h4>
+                    <p>Providing top-notch service with industry-leading tools and technologies.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="22.jpg" alt="Service 2">
+                    <h4>Service 2</h4>
+                    <p>Expert solutions tailored to meet your business needs and goals.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="33.jpg" alt="Service 3">
+                    <h4>Service 3</h4>
+                    <p>Innovative strategies that drive growth and enhance productivity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="about" class="container mt-5">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 mb-4">
+                <h2>About Us</h2>
+                <p>Tech Solutions provides cutting-edge technology solutions to help businesses thrive. We specialize in creating innovative software and providing expert consulting services to meet your unique needs.</p>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="sidebar">
+                    <h3>Contact Information</h3>
+                    <p>Address: 123 2nd mountain, the moon</p>
+                    <p>Email: info@tech.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container mt-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Interested in</label>
+                    <select class="form-control" id="service">
+                        <option>Service 1</option>
+                        <option>Service 2</option>
+                        <option>Service 3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+   
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Information</h5>
+                    <p>Address: 123 Tech Lane, Silicon Valley</p>
+                    <p>Email: info@techsolutions.com</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Facebook</a></li>
+                        <li><a href="#" class="text-white">Twitter</a></li>
+                        <li><a href="#" class="text-white">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Newsletter Signup</h5>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your email">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
